@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Embedded Video</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #1a1818;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 800px;
+            margin: 50px auto;
+            background-color: #262424;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .container span{
+            color: red;
+        }
+        h1 {
+            text-align: center;
+            color: white;
+        }
+        .video-container {
+            position: relative;
+            width: 100%;
+            padding-top: 56.25%; /* 16:9 aspect ratio */
+            overflow: hidden;
+        }
+        .video-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+        .poster-image {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .poster-image a {
+            display: inline-block;
+        }
+        .poster-image img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 15px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1> <span> Watch Now </span> Fighter  </h1>
+        <div class="poster-image">
+            <a href="https://1drv.ms/u/s!Ag_-MgLm0OHUpiTGn5wf5EK6U69l?e=uu0JlH" target="_blank">
+                <img src="Fighter.jpg" alt="Video Poster">
+            </a>
+        </div>
+    </div>
+
+    <div class="container">
+        <h1> <span> Watch Now </span> Article 370  </h1>
+        <div class="poster-image">
+            <a href="https://1drv.ms/u/s!Ag_-MgLm0OHUpiZoyjew8hNuU0as?e=qKhc0t" target="_blank">
+                <img src="Article-370.webp" alt="Video Poster">
+            </a>
+        </div>
+    </div>
+
+    <div class="container">
+        <h1> <span> Watch Now </span>Pirates of the Caribbean 2003 </h1>
+        <div class="poster-image">
+            <a href="https://1drv.ms/v/s!Ag_-MgLm0OHUpiW8yqKeHsGp8TAB?e=CIczWx" target="_blank">
+                <img src="Pirates of the Caribbean.jpg" alt="Video Poster">
+            </a>
+        </div>
+    </div>
+
+</body>
+</html>
